@@ -1,0 +1,20 @@
+{
+  "name": "taller-es6",
+  "version": "1.0.0",
+  "description": "TAller de ES6 con BabelJS",
+  "main": "app.js",
+  "scripts": {
+    "transpilar": "babel app.js -o app-es5.js"
+  },
+  "keywords": [
+    "es6",
+    "babel",
+    "laboratoria"
+  ],
+  "author": "Amalia Rivera <amaliariveracastillejos@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2"
+  }
+}
